@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+}
+
+.hamburger {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.tytul {
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+
+.bulka {
+    background-color: #ddb786;
+    height: 6rem;
+    width: 24rem;
+    border-radius: 4rem 4rem 1rem 1rem;
+    border-bottom: 1rem solid #D3A15F;
+}
+
+
+.ser {
+    background-color: #FFD700;
+    height: 1rem;
+    width: 25rem;
+    border-bottom: 0.25rem solid #DAA520;
+}
+
+
+.pomidor {
+    background-color: #FF0000;
+    height: 2rem;
+    width: 18rem;
+    border-bottom: 0.25rem solid #DC143C;
+}
+
+
+
+.burger {
+    background-color: #CC6633;
+    height: 1.5rem;
+    width: 22rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border-bottom: 0.25rem solid  #993300;
+}
+
+.krazek_cebulowy
+{
+    background-color:#800080;
+    height: 2rem;
+    width: 16.5rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cebula 
+{
+    background-color: pink;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50% ;
+}
+
+.mielone {
+    display: flex;
+}
+
+.mielony
+{
+    background-color: #A52A2A;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.ogorek
+{
+    height: 2em;
+    width: 15rem;
+    background-color: #90EE90;
+    border-radius: 0rem 0rem 5rem 5rem;
+    border-bottom: 1rem solid #008000;
+}
+
+.bulka2
+{
+    background-color: #ddb786;
+    height: 3rem;
+    width: 24rem;
+    border-radius: 1rem 1rem 3rem 3rem;
+    border-top: 1rem solid #D3A15F;
+}
+
+
