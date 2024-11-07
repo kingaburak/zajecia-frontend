@@ -1,8 +1,33 @@
 .tytul {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 10px;
     color:#ef6428;
     font-family: 'arial';
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.first_name_label {
+    margin-bottom: 8px;
+    color: #ef6428;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.input_first_name {
+    width: 10rem;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.last_name {
+    display: flex;
+    flex-direction: column;
 }
