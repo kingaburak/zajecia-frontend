@@ -1,1 +1,1 @@
-# zajecia2frontend
+# zajecia-frontend
