@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Employment Form</title>
+    <title>Formularz</title>
 </head>
 <body>
-    <h1 class="tytul">Employment Form</h1>
-    <form>
-        <div class="name">
-            <div class="first_name">
-                <label class="first_name_label">First name</label>
-                <input class="input_first_name" type="text" name="first_name" id="first_name" required>
-            </div>
-            <div class="last_name">
-                <label class="first_name_label">Last name</label>
-                <input class="input_first_name" type="text" name="first_name" id="first_name" required>
-            </div>
-        </div>
+    <div class="formularz">
+        <h1 class="naglowek">Employment Form</h1>
+        <form class="form">
+            <label class="first_name_label">First name</label>
+            <input type="text" name="first_name" class="first_name_input" required>
+        </form>
+
+        <form class="form">
+            <label class="last_name_label">Last name</label>
+            <input type="text" name="last_name" class="last_name_input" required>
+        </form>
+
+        <form class="form">
+            <label class="e-mail_label">E-mail</label>
+            <input type="text" name="e-mail" class="last_name_input" required>
+        </form>
+
+        <form class="form">
+            <label class="Phone">Phone</label>
+            <input type="text" name="phone" class="phone_input" required>
+        </form>
         
-    </form>
+
+
+
+
+    </div>
 </body>
 </html>

@@ -1,5 +1,10 @@
-body {
+.strona {
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .hamburger {
