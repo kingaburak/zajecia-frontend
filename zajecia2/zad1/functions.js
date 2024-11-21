@@ -1,6 +1,6 @@
 function isOdd(x)   
 {
-    if(x % 2 == 0)
+    if(x % 2 === 0)
     {
         return false;
     }
@@ -12,7 +12,7 @@ function isOdd(x)
 
 const isEven = (x) => 
 {
-    if(x % 2 == 0)
+    if(x % 2 === 0)
     {
         return true;
     }
