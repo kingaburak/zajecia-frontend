@@ -61,8 +61,11 @@
     gap: 10px; 
 }
 
-.checkbox {
-    margin: 0 auto;
+.check-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px; 
 }
 
 .checkbox-label {
