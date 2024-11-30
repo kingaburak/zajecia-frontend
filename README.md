@@ -9,3 +9,5 @@ ZAJĘCIA 1:
 ZAJĘCIA 2:
 
 - Zadanie 2 -> https://kingaburak.github.io/zajecia-frontend/zajecia2/zad2
+
+- Zadanie 2 -> https://kingaburak.github.io/zajecia-frontend/zajecia2/zad8
