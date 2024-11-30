@@ -6,20 +6,85 @@
     <title>Employment Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="form-container">
         <h1 class="naglowek">Employment Form</h1>
-        
-
-        <div class="okienko">
-            <label class="label" for="name">First name:</label>
-            <input class="input" type="text" id="name" name="name" required>
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">First name</label>
+                <input class="input" type="text" id="name" placeholder="Jan">
+            </div>
+            <div class="container1">
+                <label class="label" for="name">Last name</label>
+                <input class="input" type="text" id="name" placeholder="Kowalski">
+            </div>
         </div>
 
-        
-        <div class="okienko">
-            <label class="label" for="name">Last name:</label>
-            <input class="input" type="text" id="name" name="name" required>
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">E-mail</label>
+                <input class="input" type="email" id="email" placeholder="jk@gmail.com" required>
+            </div>
+            <div class="container1">
+                <label class="label" for="name">Phone</label>
+                <input class="input" type="text" id="phone" placeholder="505 505 505" required>
+            </div>
+            <div class="container1">
+                <label class="label" for="name">Date of birth</label>
+                <input class="input" type="date" id="data" required>
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">Gender</label>
+                <select name="gender" id="gender" class="gender" required>
+                    <option value="none" disabled selected></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">What are you looking for</label>
+                <div class="radio-buttons">
+                    <label class="checkbox-label"><input type="radio" name="occupation" id="softwareEngineer" required> Software Engineer</label>
+                    <label class="checkbox-label"><input type="radio" name="occupation" id="uxDesigner" required> UX Designer</label>
+                    <label class="checkbox-label"><input type="radio" name="occupation" id="analyticsSpecialist" required> Analytics Specialist</label>
+                    <label class="checkbox-label"><input type="radio" name="occupation" id="projectManager" required> Project Manager</label>
+                </div>
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">Which programming languages do you know?</label>
+                <div class="check-boxes">
+                    <label class="checkbox-label"><input type="checkbox" id="Java"> Java</label>
+                    <label class="checkbox-label"><input type="checkbox" id="Javascript"> Javascript</label>
+                    <label class="checkbox-label"><input type="checkbox" id="C#"> C#</label>
+                    <label class="checkbox-label"><input type="checkbox" id="Kotlin"> Kotlin</label>
+                    <label class="checkbox-label"><input type="checkbox" id="Python"> Python</label>
+                    <label class="checkbox-label"><input type="checkbox" id="Scala"> Scala</label>
+                </div>                
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="container1">
+                <label class="label" for="name">Message</label>
+                <textarea class="message-area" placeholder="Type your message"></textarea>
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="button-container">
+                <button class="reset-button">Reset</button>
+                <button class="submit-button">Submit</button>
+            </div>  
         </div>
     </div>
 </body>
