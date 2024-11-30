@@ -8,16 +8,17 @@
 </head>
 
 <body>
+    <form>
     <div class="form-container">
         <h1 class="naglowek">Employment Form</h1>
         <div class="container">
             <div class="container1">
                 <label class="label" for="name">First name</label>
-                <input class="input" type="text" id="name" placeholder="Jan">
+                <input class="input" type="text" id="name" placeholder="Jan" required>
             </div>
             <div class="container1">
                 <label class="label" for="name">Last name</label>
-                <input class="input" type="text" id="name" placeholder="Kowalski">
+                <input class="input" type="text" id="name" placeholder="Kowalski" required>
             </div>
         </div>
 
@@ -28,7 +29,7 @@
             </div>
             <div class="container1">
                 <label class="label" for="name">Phone</label>
-                <input class="input" type="text" id="phone" placeholder="505 505 505" required>
+                <input class="input" type="text" id="phone"  pattern="\d{3} \d{3} \d{3}" placeholder="505 505 505" required>
             </div>
             <div class="container1">
                 <label class="label" for="name">Date of birth</label>
@@ -40,7 +41,7 @@
             <div class="container1">
                 <label class="label" for="name">Gender</label>
                 <select name="gender" id="gender" class="gender" required>
-                    <option value="none" disabled selected></option>
+                    <option value="" disabled selected></option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
@@ -82,10 +83,11 @@
 
         <div class="container">
             <div class="button-container">
-                <button class="reset-button">Reset</button>
-                <button class="submit-button">Submit</button>
+                <button class="reset-button" type="reset">Reset</button>
+                <button class="submit-button" type="submit">Submit</button>
             </div>  
         </div>
     </div>
+</form>
 </body>
 </html>
