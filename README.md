@@ -10,4 +10,4 @@ ZAJĘCIA 2:
 
 - Zadanie 2 -> https://kingaburak.github.io/zajecia-frontend/zajecia2/zad2
 
-- Zadanie 2 -> https://kingaburak.github.io/zajecia-frontend/zajecia2/zad8
+- Zadanie 8 -> https://kingaburak.github.io/zajecia-frontend/zajecia2/zad8
