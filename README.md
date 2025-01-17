@@ -15,4 +15,10 @@ ZAJĘCIA 2:
 ZAJĘCIA 3: 
 
 - Zadanie 3 -> https://kingaburak.github.io/zajecia-frontend/zajecia3/Clicker
+
+ZAJĘCIA 5:
+
+- Zadanie 1 : Quiz App ->
+
+- Zadanie 2 : TicTacToe ->
   
