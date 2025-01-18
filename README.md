@@ -14,7 +14,7 @@ ZAJĘCIA 2:
 
 ZAJĘCIA 3: 
 
-- Zadanie 3 -> https://kingaburak.github.io/zajecia-frontend/zajecia3/Clicker
+- Zadanie 3 -> 
 
 ZAJĘCIA 5:
 
